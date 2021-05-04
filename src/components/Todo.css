@@ -1,0 +1,30 @@
+  h1 {
+  color:#69178f
+}
+
+  button {
+    border: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+    background-color: rgb(224, 73, 73);
+  }
+  button:active {
+    background-color: rgb(54, 182, 103);
+  }
+
+  input {
+    outline:none;
+    border:4px;
+    box-shadow: 0px 0px 3px rgb(21, 39, 3);
+  }
+  
+  input:focus {
+    outline: none;
+    border: hidden;
+    box-shadow: 0px 0px 0px 3px #10253d;
+  }
+  
+  .strike {
+    text-decoration: line-through; 
+    color: #e94040;
+  }
